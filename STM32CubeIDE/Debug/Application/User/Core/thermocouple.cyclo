@@ -1,0 +1,10 @@
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:305:6:SetADC	1
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:325:6:SetSPI	1
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:383:6:SetThermocouple	2
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:439:6:SetThermistor	1
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:470:6:SetMAX6675	1
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:521:6:SetTermColdJunc	1
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:678:10:GetADC	1
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:637:9:GetTempColdJunc	7
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:556:10:Get_temperature	14
+D:/C_Projects/STM32/TestThermocouple/Core/Src/thermocouple.c:706:6:SetVRef	2

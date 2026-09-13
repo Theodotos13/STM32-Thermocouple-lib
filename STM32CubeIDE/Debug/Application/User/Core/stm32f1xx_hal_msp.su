@@ -1,0 +1,5 @@
+D:/C_Projects/STM32/TestThermocouple/Core/Src/stm32f1xx_hal_msp.c:63:6:HAL_MspInit	8	static
+D:/C_Projects/STM32/TestThermocouple/Core/Src/stm32f1xx_hal_msp.c:85:6:HAL_ADC_MspInit	32	static
+D:/C_Projects/STM32/TestThermocouple/Core/Src/stm32f1xx_hal_msp.c:122:6:HAL_ADC_MspDeInit	0	static
+D:/C_Projects/STM32/TestThermocouple/Core/Src/stm32f1xx_hal_msp.c:155:6:HAL_SPI_MspInit	32	static
+D:/C_Projects/STM32/TestThermocouple/Core/Src/stm32f1xx_hal_msp.c:195:6:HAL_SPI_MspDeInit	0	static
