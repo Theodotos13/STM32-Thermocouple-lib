@@ -148,14 +148,14 @@ int main(void)
     /* Запись в строку результатов измерения */
     /* Writing to the measurement results line */
   		sprintf(str_tx, "Temperature %d%cC   |   MAX6675 %d%cC   |   NTC %d%cC   |   PTC %d%cC\r", \
-  																/* Измерение термопарой и АЦП / Thermocouple and ADC measurement */	\
-																											Get_temperature(&ThermKstruct, THREM_K), 0xB0,\
-												/* Измерение термопарой и MAX6675 / Thermocouple and MAX6675 measurement */  	\
-																											Get_temperature(&ThermKstruct, MAX6675), 0xB0,\
-													/* Измерение NTC термистором и АЦП / NTC thermistor and ADC measurement */	\
-																											Get_temperature(&NTCstruct, THERMISTOR), 0xB0,\
-													/* Измерение PTC термистором и АЦП / PTC thermistor and ADC measurement */	\
-																											Get_temperature(&PTCstruct, THERMISTOR) - 34, 0xB0);
+  								/* Измерение термопарой и АЦП / Thermocouple and ADC measurement */\
+													Get_temperature(&ThermKstruct, THREM_K), 0xB0, \
+					/* Измерение термопарой и MAX6675 / Thermocouple and MAX6675 measurement */    \
+													Get_temperature(&ThermKstruct, MAX6675), 0xB0, \
+						/* Измерение NTC термистором и АЦП / NTC thermistor and ADC measurement */ \
+													Get_temperature(&NTCstruct, THERMISTOR), 0xB0, \
+						/* Измерение PTC термистором и АЦП / PTC thermistor and ADC measurement */ \
+													Get_temperature(&PTCstruct, THERMISTOR) - 34, 0xB0);
 
   	  /* Отправка результатов измерения в терминал посредством USB CDC */
   	  /* Sending measurement results to the terminal via USB CDC. */
