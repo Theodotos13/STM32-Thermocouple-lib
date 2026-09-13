@@ -9,5 +9,21 @@ Temperature measurement using NTC or PTC thermistors.
 Temperature measurement using a thermocouple connected to the STM32 via a MAX6675 chip.
 Connection of an external reference voltage source for higher-precision temperature measurement without using the MAX6675.
 Function definitions and their arguments are documented in the thermocouple.c file in both Russian and English.
-
 An example of using the library has been created for the STM32CubeIDE development environment. An STM32CubeMX project is also available, making it possible to generate a project for a different development environment and include the library files. The library files "thermocouple.c" and "thermocouple.h" are located in the \Core\Src and \Core\Inc directories, respectively. 
+
+A detailed description of the library functions in Russian can be found in the article at the following link: https://dzen.ru/a/aqVYgZ9N3CTS5ZMA
+
+Это библиотека для измерения температуры термопарой или термистором на микроконтроллере STM32.
+
+Возможности:
+измерение температуры при помощи термопары, которая подключена ко входу АЦП STM32 через операционный усилитель.
+Измерение реальной температуры холодного спая с помощью NTC, или PTC термистора
+Компенсация температуры холодного спая при измерении термопарой.
+Использование термопары без измерения температуры холодного спая. Для этого просто задаётся комнатная температура, которую программа будет использовать для компенсации температуры холодного спая.
+Измерение температуры при помощи NTC, или PTC термисторов.
+Измерение температуры термопарой, которая подключена к STM32 через микросхему MAX6675
+Подключение внешнего источника опорного напряжения для более точного измерения температуры без использования MAX6675
+Описание функций и их аргументов приведено в файле thermocouple.c на русском и английском языках.
+Данный пример сгенерирован для среды разработки STM32CubeIDE. Также доступен проект STM32CubeMX, позволяющий сгенерировать проект для другой среды разработки и подключить файлы библиотеки: thermocouple.c и thermocouple.h, которые находятся в каталогах \Core\Src и \Core\Inc соответственно.
+
+Подробное описание функций библиотеки на русском языке можно найти в статье по ссылке: https://dzen.ru/a/aqVYgZ9N3CTS5ZMA
